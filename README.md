@@ -19,6 +19,7 @@ Each skill lives in its own repo — one `git clone` installs it.
 | [readme-discipline](https://github.com/Skillproofdev/readme-discipline) | READMEs grounded in the code: every claim traces to a file, every command runs | section completeness 18/18 vs 14, blind preference 3/3 repos, trust 4.67 vs 3.67 | `git clone https://github.com/Skillproofdev/readme-discipline ~/.claude/skills/readme-discipline` |
 | [changelog-discipline](https://github.com/Skillproofdev/changelog-discipline) | Changelogs traceable to real commits: nothing invented, breaking changes kept | commit traceability 87% vs 6%, format 30/36 vs 13/36 (fabrication a tie — both honest) | `git clone https://github.com/Skillproofdev/changelog-discipline ~/.claude/skills/changelog-discipline` |
 | [prompt-discipline](https://github.com/Skillproofdev/prompt-discipline) | Prompt improvement that diagnoses before rewriting: minimal-diff + A/B test plan | task success 0.90 vs 0.70 original, half the prompt bloat (n=1, honest caveat) | `git clone https://github.com/Skillproofdev/prompt-discipline ~/.claude/skills/prompt-discipline` |
+| [text-humanizer](https://github.com/Skillproofdev/text-humanizer) | Remove AI tells while freezing every fact: rebuild the prose in a human voice, claim set immutable | beat the raw baseline on blind preference 8–4 (published 3 honest failures first); tells 2 vs 4, facts 129/130 | `git clone https://github.com/Skillproofdev/text-humanizer ~/.claude/skills/text-humanizer` |
 
 ## Free tools for skill authors
 
