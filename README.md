@@ -9,8 +9,7 @@ Each skill lives in its own repo — one `git clone` installs it.
 | Skill | What it does | Measured cost | Install |
 |---|---|---|---|
 | [seo-translator](https://github.com/Skillproofdev/seo-translator) | SEO-aware, human-sounding translation: per-market registers, never-translate list, anti-AI pass | 76k tokens / 4m53s per language (2,900-word article) | `git clone https://github.com/Skillproofdev/seo-translator ~/.claude/skills/seo-translator` |
-
-More coming — a token-discipline skill is in the pipeline.
+| [token-discipline](https://github.com/Skillproofdev/token-discipline) | Input-side token savings: search-before-read, batched tool calls, no redundant re-reads — 9 enforceable rules | −19–20% tokens on multi-step work (5 controlled task pairs); a wash on one-shots | `git clone https://github.com/Skillproofdev/token-discipline ~/.claude/skills/token-discipline` |
 
 ## Free tools for skill authors
 
